@@ -1,8 +1,8 @@
 import Section from "@/components/ui/Section";
 import SectionImage from "@/components/ui/SectionImage";
 import NavButton from "@/components/ui/NavButton";
-import MusicPlayer from "@/components/MusicPlayer";
-import Countdown from "@/components/ui/Countdown";
+import MusicPlayer from "@/components/features/MusicPlayer";
+import Countdown from "@/components/features/Countdown";
 import Hotspot from "@/components/ui/Hotspot";
 import { CLABE, LINKS } from "@/lib/links";
 import CopyHotspot from "@/components/ui/CopyHotspot";
@@ -16,27 +16,27 @@ export default function Home() {
 
           <NavButton
             href="#inicio"
-            className="left-[7%] top-[18%] h-[45%] w-[14%]"
+            className="left-[4%] top-[20%] h-[45%] w-[14%]"
           />
 
           <NavButton
             href="#detalles"
-            className="left-[24%] top-[18%] h-[45%] w-[17%]"
+            className="left-[19%] top-[20%] h-[45%] w-[17%]"
           />
 
           <NavButton
             href="#countdown"
-            className="left-[45%] top-[18%] h-[45%] w-[12%]"
+            className="left-[40%] top-[20%] h-[45%] w-[12%]"
           />
 
           <NavButton
             href="#regalos"
-            className="left-[60%] top-[18%] h-[45%] w-[25%]"
+            className="left-[55%] top-[20%] h-[45%] w-[25%]"
           />
 
           <NavButton
             href="#hospedaje"
-            className="left-[87%] top-[18%] h-[45%] w-[12%]"
+            className="left-[80%] top-[20%] h-[45%] w-[15%]"
           />
         </div>
 
@@ -86,7 +86,7 @@ export default function Home() {
         <Countdown />
       </Section>
 
-      <Section id="fotos">
+      <Section id="hospedaje">
         <SectionImage src="/images/fotos.gif" alt="Fotos" />
       </Section>
 

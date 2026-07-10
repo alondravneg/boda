@@ -15,6 +15,13 @@ export const LINKS = {
 
   calendar:
     "https://addcal.io/e/oab64cc4o8l5",
+    
 };
-
+export const ROUTES = {
+  home: "/#inicio",
+  details: "/#detalles",
+  countdown: "/#countdown",
+  hotels: "/#hospedaje",
+  gifts: "/#regalos",
+};
 export const CLABE = "4152314564840125";

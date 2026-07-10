@@ -25,8 +25,8 @@ export default function Hotspot({
   return (
     <button
       onClick={handleClick}
-      className={`absolute bg-transparent cursor-pointer ${className}`}
-      //className={`absolute border-2 border-red-500 bg-red-500/20 ${className}`}
+      // className={`absolute bg-transparent cursor-pointer ${className}`}
+      className={`absolute border-2 border-red-500 bg-red-500/20 ${className}`}
       aria-label="Hotspot"
     />
   );

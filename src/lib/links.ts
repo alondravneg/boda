@@ -7,15 +7,14 @@ export const LINKS = {
   whatsapp:
     "https://wa.me/528115453797?text=%C2%A1Hola!%20Necesito%20asistencia%20con%20la%20boda%20de%20Alondra%20y%20Oscar:%20",
 
-  amazon:
-    "https://www.amazon.com.mx/wedding/share/alondrayoscar",
+  amazon: "https://www.amazon.com.mx/wedding/share/alondrayoscar",
 
-  liverpool:
-    "https://mesaderegalos.liverpool.com.mx/milistaderegalos/51780313",
+  liverpool: "https://mesaderegalos.liverpool.com.mx/milistaderegalos/51780313",
 
-  calendar:
-    "https://addcal.io/e/oab64cc4o8l5",
-    
+  calendar: "https://addcal.io/e/oab64cc4o8l5",
+
+  confirmacion:
+    "https://wa.me/528111164303?text=%C2%A1Hola!%20Quiero%20confirmar%20mi%20(nuestra)%20asistencia%20a%20la%20boda%20de%20Alondra%20y%20Oscar:%20",
 };
 export const ROUTES = {
   home: "/#inicio",

@@ -9,7 +9,7 @@ export default function HospedajePage() {
     <InvitationPage>
       <div className="relative">
         <SectionImage
-          src="/images/hospedaje.svg"
+          src="/images/hospedaje.png"
           alt="Hospedaje"
         />
 

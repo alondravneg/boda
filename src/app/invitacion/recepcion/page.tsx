@@ -8,7 +8,7 @@ export default function RecepcionPage() {
   return (
     <InvitationPage>
       <div className="relative">
-        <SectionImage src="/images/recepcion.svg" alt="Recepcion" />
+        <SectionImage src="/images/recepcion.png" alt="Recepcion" />
 
         {/* Google */}
 

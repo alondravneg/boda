@@ -8,7 +8,7 @@ export default function MisaPage() {
   return (
     <InvitationPage>
       <div className="relative">
-        <SectionImage src="/images/misa.svg" alt="Misa" />
+        <SectionImage src="/images/misa.png" alt="Misa" />
 
         {/* Google */}
 

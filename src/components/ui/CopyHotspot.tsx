@@ -11,7 +11,7 @@ export default function CopyHotspot({
 }: Props) {
   const copy = async () => {
     await navigator.clipboard.writeText(text);
-    alert("✅ CLABE copiada");
+    alert("✅ Número de tarjeta copiado");
   };
 
   return (
